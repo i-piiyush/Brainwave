@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bg-gray-950 w-full h-20 flex justify-between items-center text-gray-50 px-10">
+      <div className="bg-gray-950 w-full h-20  flex justify-between items-center text-gray-50 px-10">
         <img
           src="https://jsm-brainwave.com/assets/brainwave-DM3_Zh2I.svg"
           alt="Logo"
@@ -29,9 +29,9 @@ const Navbar = () => {
         </button>
       </div>
       <div
-        className={`h-[91vh] w-full bg-gray-950 ${
+        className={`h-[100vh] w-full bg-gray-950 ${
           isClosed == false ? `hidden ` : `flex `
-        }  top-0  z-40  overflow-hidden flex-col justify-center items-center gap-10`}
+        }  top-0  z-40  overflow-hidden absolute flex-col justify-center items-center gap-10`}
       >
         <h1 className="text-gray-50 text-3xl">Feature</h1>
         <h1 className="text-gray-50 text-3xl">Pricing</h1>
